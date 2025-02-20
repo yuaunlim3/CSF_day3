@@ -1,0 +1,21 @@
+<h1>Number List</h1>
+
+<div class="side-by-side">
+
+  <div class="side-by-side">
+    <app-input (number) = "addNum($event)" instanceName="abc" #abc>
+
+      <button type="button" (click)="square()">Square</button>
+      <button type="button" (click)="negate()">Negate</button>
+  
+    </app-input>
+
+    <app-input (number) = "addNum($event)" instanceName="xyz" #xyz>
+
+      <button type="button" (click)="square()">Square</button>
+      <button type="button" (click)="negate()">Negate</button>
+  
+    </app-input>
+  </div>
+  <app-num [values]="nums" [latest]="newNum"></app-num>
+</div>

@@ -1,0 +1,18 @@
+.fullscreen{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#share-button{
+    width: 5vw;
+    height: auto;
+}
+
+button{
+    background-color: white;
+}
